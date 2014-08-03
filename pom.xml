@@ -46,6 +46,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jmockit.version>1.3</jmockit.version>
+        <thrift.version>0.9.1</thrift.version>
     </properties>
 
     <dependencies>
@@ -58,7 +59,7 @@
         <dependency>
             <groupId>org.apache.thrift</groupId>
             <artifactId>libthrift</artifactId>
-            <version>0.7.0</version>
+            <version>${thrift.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>javax.servlet</groupId>
